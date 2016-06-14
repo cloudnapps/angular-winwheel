@@ -1946,9 +1946,9 @@ function winwheelAnimationLoop()
         
         // If there is a callback function which is supposed to be called after the wheel has been drawn then do that.
         if (winwheelToDrawDuringAnimation.animation.callbackAfter != null)
-        {
-            eval(winwheelToDrawDuringAnimation.animation.callbackAfter);
-        }
+        {
+            winwheelToDrawDuringAnimation.animation.callbackAfter();
+        }
     }
 }
 
@@ -1966,8 +1966,8 @@ function winwheelStopAnimation(canCallback)
     if (canCallback != false)
     {
         if (winwheelToDrawDuringAnimation.animation.callbackFinished != null)
-        {
-            eval(winwheelToDrawDuringAnimation.animation.callbackFinished);
-        }
+        {
+            winwheelToDrawDuringAnimation.animation.callbackFinished();
+        }
     }
 }
