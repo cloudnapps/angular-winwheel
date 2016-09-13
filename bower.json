@@ -1,0 +1,23 @@
+{
+  "name": "angular-winwheel",
+  "homepage": "https://github.com/ipengyo/javascript-winwheel",
+  "authors": [
+    "ipengyo <ipengyo@qq.com>"
+  ],
+  "description": "",
+  "main": "Winwheel.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "winwheel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
