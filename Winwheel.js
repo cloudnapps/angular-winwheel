@@ -30,8 +30,8 @@
 // By default the wheel is drawn if canvas object exists on the page, but can pass false as second parameter if don't want this to happen.
 // ====================================================================================================================
 (function () {
-  angular.module('ngStorage', []).
-    factory('$localStorage', function () {
+  angular.module('angularWinwheel', []).
+    factory('Winwheel', function () {
       function Winwheel(options, drawWheel) {
         defaultOptions = {
           'canvasId': 'canvas',     // Id of the canvas which the wheel is to draw on to.
